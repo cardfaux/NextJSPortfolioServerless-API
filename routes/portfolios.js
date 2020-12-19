@@ -7,7 +7,8 @@ const {
   getPortfolioById,
   createPortfolio,
   updatePortfolio,
-  deletePortfolio } = require('../controllers/portfolios');
+  deletePortfolio,
+} = require('../controllers/portfolios');
 
 // router.get('', getPortfolios);
 router.get('/', getPortfolios);
