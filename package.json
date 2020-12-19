@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-server-api",
+  "version": "1.0.0",
+  "description": "the api for the serverless portfolio application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "modules"
+  ],
+  "author": "James Hagood",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
