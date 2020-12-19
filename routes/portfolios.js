@@ -9,7 +9,8 @@ const {
   updatePortfolio,
   deletePortfolio } = require('../controllers/portfolios');
 
-router.get('', getPortfolios);
+// router.get('', getPortfolios);
+router.get('/', getPortfolios);
 router.get('/:id', getPortfolioById);
 
 // TODO: create middleware to check for admin rights!!!!
