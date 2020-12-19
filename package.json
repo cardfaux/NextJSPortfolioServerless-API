@@ -4,7 +4,8 @@
   "description": "the api for the serverless portfolio application",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "populate": "node populate/index.js"
   },
   "keywords": [
     "nodejs",
@@ -15,7 +16,8 @@
   "author": "James Hagood",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
